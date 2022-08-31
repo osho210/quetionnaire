@@ -191,6 +191,7 @@ export default function Home() {
         </div>
         <input type="submit" value="アンケートを提出する" />
       </form>
+      {/* // */}
       </Container>
     </>
   )
