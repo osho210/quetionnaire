@@ -4,7 +4,7 @@ import Container from '@material-ui/core/Container';
 import TextField from '@material-ui/core/TextField';
 import Input from "@material-ui/core/Input";
 import classes from "./style.module.css";
-import firebase from "./firebase";
+import firebase from "./component/firebase";
 
 export default function Home() {
   const { register, handleSubmit, formState: { errors } ,control} = useForm()
