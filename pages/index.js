@@ -4,7 +4,7 @@ import Container from '@material-ui/core/Container';
 import TextField from '@material-ui/core/TextField';
 import Input from "@material-ui/core/Input";
 import classes from "./style.module.css";
-import firebase from "./component/firebase";
+import firebase from "../public/firebase";
 
 export default function Home() {
   const { register, handleSubmit, formState: { errors } ,control} = useForm()
@@ -191,7 +191,6 @@ export default function Home() {
         </div>
         <input type="submit" value="アンケートを提出する" />
       </form>
-      {/* // */}
       </Container>
     </>
   )
